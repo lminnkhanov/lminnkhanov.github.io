@@ -375,10 +375,11 @@ p {
 }
 
 .sing-up-button > a {
+    background: #fb397d;
     color: #fff;
     font-weight: 500;
     display: inline-block;
-    border: 2px solid #a883e9;
+    border: 2px solid transparent;
     height: 50px;
     min-width: 178px;
     line-height: 46px;
@@ -457,7 +458,7 @@ p {
 }
 
 .wellcome-heading > h2 {
-    font-size: 100px;
+    font-size: 48px;
     color: #ffffff;
     font-weight: 700;
     position: relative;
@@ -526,9 +527,9 @@ p {
 }
 
 .wellcome-heading > h3 {
-    font-size: 332px;
+    font-size: 166px;
     position: absolute;
-    top: -134px;
+    top: -67px;
     font-weight: 900;
     left: -12px;
     z-index: -1;
@@ -538,7 +539,7 @@ p {
 }
 
 .wellcome-heading {
-    margin-bottom: 100px;
+    margin-bottom: 48px;
 }
 
 /* --------------------------
@@ -600,29 +601,38 @@ p {
     -ms-flex-preferred-size: 1;
     flex-basis: 1;
     margin-top: 50px;
+    align-items: center;
+}
+
+.app-download-btn {
+    width: 200px;
 }
 
 .app-download-btn a {
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 15px 30px;
-    border-radius: 30px 30px 30px 0;
-    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    /*padding: 15px 30px;*/
+    /*border-radius: 30px 30px 30px 0;*/
+    /*-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);*/
+    /*box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);*/
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
 }
 
+.app-download-btn.app-store-badge a {
+    padding: 12px;
+}
+
 .app-download-btn.active a,
 .app-download-btn a:hover {
-    border-color: transparent;
-    background-color: #fb397d;
+    /*border-color: transparent;*/
+    /*background-color: #fb397d;*/
 }
 
 .app-download-btn a i {
@@ -646,6 +656,10 @@ p {
 .app-download-btn a p span {
     font-size: 12px;
     display: block;
+}
+
+.app-download-btn a img {
+    width: 100%;
 }
 
 .app-download-btn:first-child {

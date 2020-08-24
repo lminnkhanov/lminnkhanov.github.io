@@ -58,7 +58,7 @@
         right: 0;
     }
     .wellcome-heading {
-        margin-bottom: 70px;
+        margin-bottom: 35px;
     }
     .single-special {
         padding: 30px 10px;
@@ -141,7 +141,7 @@
         font-size: 14px;
     }
     .wellcome-heading > h2 {
-        font-size: 48px;
+        font-size: 24px;
     }
     .get-start-area .email {
         margin-bottom: 20px;
@@ -213,7 +213,7 @@
         margin-top: 30px;
     }
     .wellcome-heading > h3 {
-        font-size: 252px;
+        font-size: 126px;
         top: -105px;
         left: -1px;
     }
@@ -228,20 +228,20 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
     .wellcome-heading > h3 {
-        font-size: 284px;
+        font-size: 142px;
     }
     .wellcome-heading > h2 {
-        font-size: 70px;
+        font-size: 35px;
     }
     .welcome-thumb {
         bottom: -109px;
         width: 75%;
     }
     .wellcome-heading {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
     .wellcome-heading > h3 {
-        top: -139px;
+        top: -70px;
     }
     .get-start-area .email {
         max-width: 370px;
@@ -250,7 +250,7 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .wellcome-heading > h3 {
-        font-size: 286px;
+        font-size: 142px;
     }
     .get-start-area .email {
         margin-bottom: 0;
